@@ -9,8 +9,8 @@ set(SOURCES
     #src/main.cpp
     src/glad.c
     #src/main-fan.cpp
-    #src/main-strip.cpp
-    src/main-binary.cpp
+    src/main-strip.cpp
+    #src/main-binary.cpp
 )
 
 cmake_minimum_required(VERSION 3.5.0)

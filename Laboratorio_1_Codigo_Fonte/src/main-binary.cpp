@@ -146,7 +146,7 @@ int main()
 
 GLuint BuildDigit(int digit, GLfloat deslocamento_x){
     if (digit == 1){
-        GLfloat encolhimento = 0.4f;
+        GLfloat fator_escalamento = 0.4f;
 
         // A posição de cada vértice é definida por coeficientes em "normalized
         // device coordinates" (NDC), onde cada coeficiente está entre -1 e 1.
@@ -154,12 +154,12 @@ GLuint BuildDigit(int digit, GLfloat deslocamento_x){
         //
 
         GLfloat NDC_coefficients[] = {
-                (-0.15f + deslocamento_x) * encolhimento, 0.77f * encolhimento, 0.0f, 1.0f, // Vértice 0
-                (-0.15f + deslocamento_x) * encolhimento, -0.77f * encolhimento, 0.0f, 1.0f,  // Vértice 1
-                (0.15f + deslocamento_x) * encolhimento, 0.77f * encolhimento, 0.0f, 1.0f,   // Vértice 2
-                (0.15f + deslocamento_x) * encolhimento, -0.77f * encolhimento, 0.0f, 1.0f,   // Vértice 3
+                (-0.15f + deslocamento_x) * fator_escalamento, 0.77f * fator_escalamento, 0.0f, 1.0f, // Vértice 0
+                (-0.15f + deslocamento_x) * fator_escalamento, -0.77f * fator_escalamento, 0.0f, 1.0f,  // Vértice 1
+                (0.15f + deslocamento_x) * fator_escalamento, 0.77f * fator_escalamento, 0.0f, 1.0f,   // Vértice 2
+                (0.15f + deslocamento_x) * fator_escalamento, -0.77f * fator_escalamento, 0.0f, 1.0f,   // Vértice 3
 
-                (-0.4f + deslocamento_x) * encolhimento, 0.35f * encolhimento, 0.0f, 1.0f, // Vértice 4
+                (-0.4f + deslocamento_x) * fator_escalamento, 0.35f * fator_escalamento, 0.0f, 1.0f, // Vértice 4
 
         };
 
@@ -244,7 +244,7 @@ GLuint BuildDigit(int digit, GLfloat deslocamento_x){
         // Este vetor "NDC_coefficients" define a GEOMETRIA (veja slides 103-110 do documento Aula_04_Modelagem_Geometrica_3D.pdf).
         //
 
-        GLfloat encolhimento = 0.4f;      // Fator de encolhimento geral
+        GLfloat fator_escalamento = 0.4f;      // Fator de fator_escalamento geral
 
         GLfloat innerRadius = 0.4f;  // Raio do círculo interno
         GLfloat outerRadius = 0.6f;  // Raio do círculo externo
@@ -261,15 +261,15 @@ GLuint BuildDigit(int digit, GLfloat deslocamento_x){
         for (int i = 0; i < NUM_VERTICES; i++)
         {
             // Vértices externos (Elipse)
-            NDC_coefficients[i * 4 + 0] = (outerRadius * cos(i * angle) * scaleX + deslocamento_x) * encolhimento;  // X
-            NDC_coefficients[i * 4 + 1] = (outerRadius * sin(i * angle) * scaleY) * encolhimento;                    // Y
+            NDC_coefficients[i * 4 + 0] = (outerRadius * cos(i * angle) * scaleX + deslocamento_x) * fator_escalamento;  // X
+            NDC_coefficients[i * 4 + 1] = (outerRadius * sin(i * angle) * scaleY) * fator_escalamento;                    // Y
 
             NDC_coefficients[i * 4 + 2] = 0.0f;                                                                      // Z
             NDC_coefficients[i * 4 + 3] = 1.0f;                                                                      // W
 
             // Vértices internos (Elipse)
-            NDC_coefficients[(i + NUM_VERTICES) * 4 + 0] = (innerRadius * cos(i * angle) * scaleX + deslocamento_x) * encolhimento;  // X
-            NDC_coefficients[(i + NUM_VERTICES) * 4 + 1] = (innerRadius * sin(i * angle) * scaleY) * encolhimento;                    // Y
+            NDC_coefficients[(i + NUM_VERTICES) * 4 + 0] = (innerRadius * cos(i * angle) * scaleX + deslocamento_x) * fator_escalamento;  // X
+            NDC_coefficients[(i + NUM_VERTICES) * 4 + 1] = (innerRadius * sin(i * angle) * scaleY) * fator_escalamento;                    // Y
 
             NDC_coefficients[(i + NUM_VERTICES) * 4 + 2] = 0.0f;                                                                      // Z
             NDC_coefficients[(i + NUM_VERTICES) * 4 + 3] = 1.0f;                                                                      // W

@@ -1,11 +1,11 @@
 # ninja log v5
-2087	2339	7514357899814018	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/bin/Debug/main.exe	91b4d860f52a760a
-3	1325	7514357889723712	CMakeFiles/main.dir/src/glad.c.obj	7a7e06157603e96b
+26	2978	7516113411263139	CMakeFiles/main.dir/src/glad.c.obj	7a7e06157603e96b
+4269	4662	7516113428006689	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/bin/Debug/main.exe	c31142496df737cc
+10	4268	7516113424156158	CMakeFiles/main.dir/src/main.cpp.obj	df8e95a98b705c66
 11	2087	7514357897353994	CMakeFiles/main.dir/src/main-strip.cpp.obj	ef91ae67ca2d1b7b
-20	1795	7514356273122389	CMakeFiles/main.dir/src/main.cpp.obj	df8e95a98b705c66
-1	175	7514358124820178	build.ninja	2677c1fb67472123
+9	866	7526441721598667	build.ninja	2677c1fb67472123
+18	1718	7516109903379950	CMakeFiles/main.dir/src/main-binary.cpp.obj	632cb61d876cfc4a
 21	2872	7514356929719407	CMakeFiles/main.dir/src/main-fan.cpp.obj	3221d10e664e9817
-1	400	7514358124820178	build.ninja	2677c1fb67472123
-25	2780	7514358154510192	CMakeFiles/main.dir/src/glad.c.obj	7a7e06157603e96b
-9	3558	7514358162380163	CMakeFiles/main.dir/src/main-binary.cpp.obj	632cb61d876cfc4a
-3558	3794	7514358164680126	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/bin/Debug/main.exe	da8fd4758cd484b4
+10	2942	7526441762395087	CMakeFiles/main.dir/src/glad.c.obj	7a7e06157603e96b
+111	4563	7526441778610066	CMakeFiles/main.dir/src/main-strip.cpp.obj	ef91ae67ca2d1b7b
+4566	5024	7526441783039055	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/bin/Debug/main.exe	91b4d860f52a760a

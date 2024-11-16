@@ -56,8 +56,8 @@ build CMakeFiles/main.dir/src/glad.c.obj: C_COMPILER__main_unscanned_Debug C$:/U
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir\src
 
-build CMakeFiles/main.dir/src/main-binary.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/src/main-binary.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\src\main-binary.cpp.obj.d
+build CMakeFiles/main.dir/src/main-strip.cpp.obj: CXX_COMPILER__main_unscanned_Debug C$:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/src/main-strip.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\src\main-strip.cpp.obj.d
   FLAGS = -g -std=c++11 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/include
   OBJECT_DIR = CMakeFiles\main.dir
@@ -71,7 +71,7 @@ build CMakeFiles/main.dir/src/main-binary.cpp.obj: CXX_COMPILER__main_unscanned_
 #############################################
 # Link the executable C:\Users\maxbo\OneDrive\Documentos\Estudos\Faculdade\Prática\Semestre6\FCG\ProjetosFCG\Laboratorio_1_Codigo_Fonte\bin\Debug\main.exe
 
-build C$:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/bin/Debug/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/glad.c.obj CMakeFiles/main.dir/src/main-binary.cpp.obj | C$:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/lib-mingw-64/libglfw3.a
+build C$:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/bin/Debug/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/glad.c.obj CMakeFiles/main.dir/src/main-strip.cpp.obj | C$:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/lib-mingw-64/libglfw3.a
   FLAGS = -g
   LINK_LIBRARIES = C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_1_Codigo_Fonte/lib-mingw-64/libglfw3.a  -lgdi32  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\main.dir
