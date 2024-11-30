@@ -219,10 +219,9 @@ float dotproduct(glm::vec4 u, glm::vec4 v)
 glm::mat4 Matrix_Camera_View(glm::vec4 position_c, glm::vec4 view_vector, glm::vec4 up_vector)
 {
     glm::vec4 w = -view_vector; // w é o inverso do view_vector
-    glm::vec4 u = crossproduct(up_vector, w); // Produto vetorial entre up_vector e w
-
-    // Normalizamos os vetores u e w
     w = w / norm(w);
+
+    glm::vec4 u = crossproduct(up_vector, w); // Produto vetorial entre up_vector e w
     u = u / norm(u);
 
     glm::vec4 v = crossproduct(w, u);
@@ -230,15 +229,11 @@ glm::mat4 Matrix_Camera_View(glm::vec4 position_c, glm::vec4 view_vector, glm::v
     // Coordenadas da origem para a posição da câmera
     glm::vec4 origin_o = glm::vec4(0.0f, 0.0f, 0.0f, 1.0f);
 
-    //float ux = u.x, uy = u.y, uz = u.z;
-    //float vx = v.x, vy = v.y, vz = v.z;
-    //float wx = w.x, wy = w.y, wz = w.z;
-
     return Matrix(
             u.x, u.y, u.z, -dotproduct(u, position_c - origin_o), // LINHA 1
             v.x, v.y, v.z, -dotproduct(v, position_c - origin_o), // LINHA 2
             w.x, w.y, w.z, -dotproduct(w, position_c - origin_o), // LINHA 3
-            0.0f, 0.0f, 0.0f, 1.0f                             // LINHA 4
+            0.0f, 0.0f, 0.0f, 1.0f                                // LINHA 4
     );
 }
 // Matriz de projeção paralela ortográfica

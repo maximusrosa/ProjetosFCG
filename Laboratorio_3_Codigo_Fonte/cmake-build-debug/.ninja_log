@@ -1,0 +1,27 @@
+# ninja log v6
+118	2617	7545445364809328	CMakeFiles/main.dir/src/glad.c.obj	da108d7caba4ff93
+62	4559	7545445364243438	CMakeFiles/main.dir/src/textrendering.cpp.obj	6ce25bc48398526b
+12	5677	7545445363747891	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+15	821	7545448380950585	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+23	3905	7546290576953871	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+3906	4245	7546290615779805	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+31	4142	7546345024203566	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+4143	4501	7546345065315456	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+10	3181	7546348154307443	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+3183	3482	7546348186035801	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+53	4578	7546365837682232	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+4579	5115	7546365882943835	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+14	4158	7546382971538368	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+4159	4661	7546383012981870	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+15	3695	7546383142740721	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+3696	4175	7546383179551583	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+21	4632	7546386481756912	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+4633	5020	7546386527883558	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+14	4248	7546386616688487	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+4249	4739	7546386659039105	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+12	4550	7546386726516195	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+4550	4934	7546386771896612	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+14	3535	7546386874101925	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+3536	4115	7546386909317672	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
+18	2388	7546397533918915	CMakeFiles/main.dir/src/main.cpp.obj	4ef8cdaf7b45e66a
+2389	2712	7546397557617102	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_3_Codigo_Fonte/bin/Debug/main.exe	166cc99a222ec6b
