@@ -1,0 +1,9 @@
+# ninja log v6
+5	366	7571358814249322	build.ninja	6e1564b58649b8dc
+42	1642	7570558686180959	CMakeFiles/main.dir/src/stb_image.cpp.obj	53f05421e70282eb
+36	8888	7570580661720072	CMakeFiles/main.dir/src/main.cpp.obj	cb4184280fdc14f2
+54	1675	7570558686305208	CMakeFiles/main.dir/src/glad.c.obj	e85709cef666527
+13	2237	7571358584127369	CMakeFiles/main.dir/src/textrendering.cpp.obj	1b1f3136ac7a2ba9
+30	4379	7570558686063824	CMakeFiles/main.dir/src/tiny_obj_loader.cpp.obj	74aabcfadda5a760
+2237	4225	7571358606367253	C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_5_Codigo_Fonte/bin/Debug/main.exe	3f9e5e8fd0e8f028
+4	341	7571358814249322	build.ninja	6e1564b58649b8dc

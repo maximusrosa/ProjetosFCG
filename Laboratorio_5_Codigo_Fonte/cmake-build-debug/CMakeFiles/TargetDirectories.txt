@@ -1,0 +1,3 @@
+C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_5_Codigo_Fonte/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_5_Codigo_Fonte/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre6/FCG/ProjetosFCG/Laboratorio_5_Codigo_Fonte/cmake-build-debug/CMakeFiles/rebuild_cache.dir
